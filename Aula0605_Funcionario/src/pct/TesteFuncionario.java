@@ -30,6 +30,14 @@ public class TesteFuncionario {
         // Calculando e imprimindo o salario com desconto
         System.out.println("\n\t\t\t -- SALÁRIO COM DESCONTO --\n");
         f.apresentarFuncionario();
+        
+        // Outro Funcionário
+       Funcionario outroFuncionario = new Funcionario(23, "ricardo", 'P',6500.0, true);
+         
+        // imprimindo outro Funcionário
+        System.out.println("\n\t\t\t -- Outro Funcionario --\n");
+        outroFuncionario.apresentarFuncionario();
     }
+    
     
 }

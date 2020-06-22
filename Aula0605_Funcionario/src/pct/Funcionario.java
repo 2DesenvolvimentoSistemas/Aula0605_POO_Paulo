@@ -15,6 +15,10 @@ public class Funcionario {
     char nivel; // T = Teinee, J = Junior, P = Pleno, S = Senior
     double salario;
     boolean afastado;
+
+    Funcionario(int i, String ricardo, char c, double d, boolean b) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public void calcularInss() {
         System.out.println("Número de Matricula: " + numMatricula);
@@ -27,6 +31,10 @@ public class Funcionario {
     public void apresentarFuncionario(){
         salario = salario - (salario * 0.1);
         System.out.println("Desconto de 10% do salário: " + salario);
+    }
+    
+    public Funcionario(){
+        
     }
     
 }
