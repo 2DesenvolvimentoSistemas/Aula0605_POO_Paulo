@@ -17,11 +17,11 @@ public class TesteFuncionario {
         Funcionario f = new Funcionario();
         
         //construindo nosso objeto
-        f.numMatricula = 10;
-        f.nome =  "Paulo";
-        f.nivel = 'S';
-        f.salario = 1000.00;
-        f.afastado = true;
+        f.setNumMatricula(10);
+        f.setNome("Paulo");
+        f.setNivel('S');
+        f.setSalario(1000.00);
+        f.setAfastado(true);
         
         //teste do metodo para imprimir o funcionário
         System.out.println("\n\t\t\t FUNCIONÁRIO \n");
